@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    padding: 15px 100px;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+.navbar a h4 {
+    display: inline;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 100;
+}
+
+form table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+td {
+    padding: 7px;
+    line-height: top;
+}
+
+label {
+    display: block;
+    text-align: end;
+    font-size: 13px;
+    
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.btn-red {
+    background-color: #ee777e;
+}
+
+.btn-blue {
+    background-color: #33aabb;
+}
+
+input {
+    height: 25px;
+}
+
+input,select{
+    height: 25px;
+    
+}
+
+input, select, textarea{
+    border-radius: 4x;
+    border: 1px solid #cccc;
+}
+
+h4{
+    font-weight: 100;
+}
+
