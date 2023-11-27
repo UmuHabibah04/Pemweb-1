@@ -1,0 +1,45 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        footer {
+            height: 20vh;
+            background-color: rgb(249, 7, 173);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            height: 60vh;
+            display: flex;
+        }
+
+        article {
+            flex-grow: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        aside {
+            background-color: rgb(234, 40, 248);
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav {
+            background-color: rgb(189, 75, 136);
+            display: flex;
+            align-items: center;
+            float: left;
+            padding: 20px;
+            height: 555px;
+            width: 100px;
+        }
+
