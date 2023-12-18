@@ -1,0 +1,31 @@
+<div id="container">
+    <h1>Menghitung Bilangan Penjumlahan</h1>
+
+    <label for="bilangan1"></label>
+    <input type="number" id="bilangan1" placeholder="Masukkan Bilangan 1" onChange="hitungJumlah()">
+
+    <p>+</p>
+
+    <label for="bilangan2"></label>
+    <input type="number" id="bilangan2" placeholder="Masukkan Bilangan 2" onChange="hitungJumlah()">
+    <p id="hasilJumlah">hasil</p>
+    
+    
+</div>
+
+<script>
+    function hitungJumlah() {
+        var bilangan1 = document.getElementById('bilangan1').value;
+        var bilangan2 = document.getElementById('bilangan2').value;
+
+        // Konversi input menjadi angka
+        bilangan1 = parseFloat(bilangan1) || 0;
+        bilangan2 = parseFloat(bilangan2) || 0;
+
+        // Hitung jumlah
+        var jumlah = bilangan1 + bilangan2;
+
+        // Tampilkan hasil
+        document.getElementById('hasilJumlah').innerHTML = '' + jumlah;
+    }
+</script>
